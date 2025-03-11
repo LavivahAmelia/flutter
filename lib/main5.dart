@@ -1,4 +1,4 @@
-import 'dart:io';
+
 
 void main() {
   // Contoh penggunaan tipe data dalam Dart
@@ -22,12 +22,12 @@ void main() {
   bool isDartFun = false;
   print("Apakah Dart menyenangkan? $isDartFun");
 
-  // 4. List (Array)
+  // 4. List 
   List<int> angkaList = [1, 2, 3, 4, 5];
   print("List angka: $angkaList");
   print("Angka pertama dalam list: ${angkaList[0]}");
 
-  // 5. Map (Key-Value Pair)
+  // 5. Map 
   Map<String, dynamic> mahasiswa = {
     'nama': 'Budi',
     'umur': 20,
